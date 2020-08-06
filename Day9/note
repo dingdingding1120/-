@@ -1,0 +1,16 @@
+char charAt(int index):获取某个位置的字符
+int codePointAt(int index):获取某个位置的Unicode字符
+int compareTo(String other):从第一位开始比较, 如果遇到不同的字符,则马上返回这两个字符的ascii值差值.返回值是int类型(当两个相同时d返回0)
+boolean equals(Object other):比较字符串中所包含的值是否相同
+boolean equalsIgnoreCase(String other):将字符串与指定的对象比较，不考虑大小写
+boolean startsWith(String prefix):检测字符串是否以指定的前缀开始
+boolean endsWith(String suffix):检测字符串是否以指定的后缀结束
+int indexOf(String str):查找字符串中第一次出现指定字符串的位置(有返回下标，无返回-1)
+int length():返回字符串的长度
+String substring(int beginIndex):截取特定位置的字符串，该字符串包括beginIndex开始到结尾
+String substring(int beginIndex, int endIndex):返回一个新字符串，它是此字符串的一个子字符串。该子字符串从指定的 beginIndex 处开始， endIndex:到指定的 endIndex-1处结束
+String toLowerCase():将大写字符转换为小写
+String toUpperCase():将小写字符转化为大写
+String trim():删除字符串的头尾空白符
+String join(CharSequence delimiter, CharSequence... elements):返回一个新的字符串，用给定的分隔符连接所有元素
+
