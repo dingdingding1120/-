@@ -1,0 +1,6 @@
+①大括号的阈值作用
+②switch里面y要记得break，没有break就return
+③String delimeter = " ";
+  temp = date.split(delimeter);
+④当需要写一段与主任务无关的代码时，可新建函数，具体用法类似pvsm与public static xxx
+
