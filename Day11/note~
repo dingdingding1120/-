@@ -1,0 +1,22 @@
+String builder/buffer:源于String是immutable的
+int length():返回长度
+StringBuilder append(String str):新增字符串且返回
+StringBuilder append(char c):新增code unit且返回
+void setCharAt(int i, char c):用于替换。第一个参数是取代的位置 索引从0开始 第二个参数是你要替换为的字符串
+StringBuilder insert(int offset, char c):在指定位置之前插入字符(串)
+String toString():返回一个与构建起或缓冲器内容相同的字符串
+
+格式化输出：
+System.out.printf("%8.2f", x)百分号非常重要！
+d:整数
+x:十六进制整数
+o:八进制整数
+f:浮点数
+e:指数浮点
+g:通用浮点，e和f中的较短者
+s:String
+c:Character
+b:bollean
+h:Hash code
+tx or Tx:日期和时间
+

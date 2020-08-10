@@ -1,0 +1,11 @@
+JAVA相关:
+排序可直接使用Arrays.sort(arr);(升序)
+for(int n : arr ) 遍历
+min = Math.min(min, n) 取其中的最小值
+Scanner in = new Scanner(System.in);
+double payment = in.nextDouble();
+double interestRate = in.nextDouble();   in是一个对象！！！Scanner才是类！！！
+
+break: 跳出循环到最近的一个大括号后
+continue:跳出本次循环
+
